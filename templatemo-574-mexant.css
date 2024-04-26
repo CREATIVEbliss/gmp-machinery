@@ -171,7 +171,7 @@ a {
 
 .section-heading .diff2 {
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #7f7f7f;
   font-weight: 400;
   margin-top: 15px;
@@ -341,7 +341,7 @@ hr {
 
 .section-heading h6 {
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #ff511a;
   font-weight: 700;
 }
@@ -388,7 +388,7 @@ hr {
 
 .section-heading2 h4 {
   /* margin-top: 10px; */
-  */ line-height: 40px;
+line-height: 40px;
   font-size: 13px;
   font-weight: 300;
   color: #212741;
@@ -944,7 +944,7 @@ banner
   position: absolute;
   width: 50%;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-43%);
 }
 
 .slide-inner .header-text h2 {
@@ -1972,14 +1972,68 @@ body {
     display: none;
   }
 
+  .section-heading .diff{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+  }
+
+  .section-heading .diff2{
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    color: black;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .right-image img{
+    width: 100%;
+  }
+
+  .neabt {
+    text-align: start;
+    font-size: 60px;
+    margin-top: 0rem;
+}
+section{
+  margin-top: 60px;
+}
+
+.cont {
+  /* background: linear-gradient(to bottom, #00A8DC, #ffffff); */
+  background-image: url(rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+  .slide-inner .header-text h2 {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    opacity: 1;
+    visibility: visible;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
   .slide-inner .header-text p {
     display: none;
   }
 
   .slide-inner .header-text {
-    text-align: center;
+    /* text-align: center; */
     width: 80%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     margin-right: 10%;
   }
 
